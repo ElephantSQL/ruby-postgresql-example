@@ -1,1 +1,1 @@
-web: ruby app.rb -p $PORT -e $RACK_ENV
+web: ruby app.rb -p $PORT -e production
