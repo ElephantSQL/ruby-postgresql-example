@@ -1,8 +1,6 @@
 require 'sinatra'
+require 'haml'
 require './models'
-
-configure do
-end
 
 get '/' do
   @todos = Todo.all
